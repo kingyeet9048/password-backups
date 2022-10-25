@@ -7,7 +7,7 @@ export $(grep -v '^#' .env | xargs)
 
 bw login --apikey
 
-backup_dir=$(date +'%m-%d-%Y')
+backup_dir=$(date +'%m%d%Y')
 echo $BW_PASSWORD | bw export --output backups/output-${backup_dir} --format encrypted_json --password $BW_PASSWORD
 
 chmod 100 backups/output-${backup_dir}
