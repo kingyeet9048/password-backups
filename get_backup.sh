@@ -1,6 +1,7 @@
 #!/bin/bash
 
-apt-get install bitwarden-cli logrotate -y
+snap install bw
+apt-get install logrotate -y
 
 export $(grep -v '^#' .env | xargs)
 
