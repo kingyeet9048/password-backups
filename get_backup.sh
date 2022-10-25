@@ -3,9 +3,9 @@
 snap install bw
 apt-get install logrotate -y
 
-export $(grep -v '^#' .env | xargs)
+sudo export $(grep -v '^#' .env | xargs)
 
-bw login --apikey
+sudo bw login --apikey
 
 backup_dir=$(date +'%m-%d-%Y')
 sudo -u ubuntu sh -c "echo $BW_PASSWORD | bw export --output backups/output-${backup_dir} --format encrypted_json --password $BW_PASSWORD"
@@ -13,9 +13,9 @@ sudo -u ubuntu sh -c "echo $BW_PASSWORD | bw export --output backups/output-${ba
 chmod 100 backups/output-${backup_dir}
 chown "root:root" backups/output-${backup_dir}
 
-unset BW_CLIENTID BW_CLIENTSECRET BW_PASSWORD
+sudo unset BW_CLIENTID BW_CLIENTSECRET BW_PASSWORD
 
-bw logout
+sudo bw logout
 
 git add .
 git commit -m "Most Recent backup: $(date)"
