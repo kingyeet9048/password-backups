@@ -7,7 +7,9 @@ export $(grep -v '^#' .env | xargs)
 /usr/local/bin/bw login --apikey
 
 backup_dir=$(date +'%m%d%Y')
-echo $BW_PASSWORD | /usr/local/bin/bw export --output ~/backups/${backup_dir} --format encrypted_json --password $BW_PASSWORD
+echo $BW_PASSWORD | /usr/local/bin/bw export --output backups/${backup_dir} --format encrypted_json --password $BW_PASSWORD
+
+chmod o-rw ./backups/${backup_dir}
 
 unset BW_CLIENTID BW_CLIENTSECRET BW_PASSWORD
 
