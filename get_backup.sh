@@ -9,7 +9,7 @@ export $(grep -v '^#' .env | xargs)
 backup_dir=$(date +'%m%d%Y')
 echo $BW_PASSWORD | /usr/local/bin/bw export --output backups/output --format encrypted_json --password $BW_PASSWORD
 
-chmod o-rw ./backups/${backup_dir}
+chmod o-rw ./backups/output
 
 unset BW_CLIENTID BW_CLIENTSECRET BW_PASSWORD
 
