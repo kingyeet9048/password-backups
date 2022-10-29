@@ -2,4 +2,8 @@ You are logged in!
 
 To unlock your vault, use the `unlock` command. ex:
 $ bw unlock? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [hidden][27D[27C
-Saved /etc/password-backups/backups/outputYou have logged out.
+Saved /etc/password-backups/backups/outputYou have logged out.[master d7da7f1] Most Recent backup: Sat Oct 29 01:06:16 UTC 2022
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+ rewrite backups/output (98%)
+To github.com:kingyeet9048/password-backups.git
+   f647f38..d7da7f1  master -> master
