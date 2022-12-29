@@ -1,1 +1,5 @@
-Traffic from your network looks unusual. Connect to a different network or try again later. [Error Code 7]You are not logged in.You are not logged in.
+You are logged in!
+
+To unlock your vault, use the `unlock` command. ex:
+$ bw unlock? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [input is hidden] [37D[37C[2K[G? Master password: [hidden][27D[27C
+Saved /etc/password-backups/backups/outputYou have logged out.
